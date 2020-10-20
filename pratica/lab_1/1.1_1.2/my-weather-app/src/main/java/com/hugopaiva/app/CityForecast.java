@@ -36,74 +36,146 @@ public class CityForecast {
     @Expose
     private String latitude;
 
+    
+    /** 
+     * @return String
+     */
     public String getPrecipitaProb() {
         return precipitaProb;
     }
 
+    
+    /** 
+     * @param precipitaProb
+     */
     public void setPrecipitaProb(String precipitaProb) {
         this.precipitaProb = precipitaProb;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getTMin() {
         return tMin;
     }
 
+    
+    /** 
+     * @param tMin
+     */
     public void setTMin(String tMin) {
         this.tMin = tMin;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getTMax() {
         return tMax;
     }
 
+    
+    /** 
+     * @param tMax
+     */
     public void setTMax(String tMax) {
         this.tMax = tMax;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getPredWindDir() {
         return predWindDir;
     }
 
+    
+    /** 
+     * @param predWindDir
+     */
     public void setPredWindDir(String predWindDir) {
         this.predWindDir = predWindDir;
     }
 
+    
+    /** 
+     * @return Integer
+     */
     public Integer getIdWeatherType() {
         return idWeatherType;
     }
 
+    
+    /** 
+     * @param idWeatherType
+     */
     public void setIdWeatherType(Integer idWeatherType) {
         this.idWeatherType = idWeatherType;
     }
 
+    
+    /** 
+     * @return Integer
+     */
     public Integer getClassWindSpeed() {
         return classWindSpeed;
     }
 
+    
+    /** 
+     * @param classWindSpeed
+     */
     public void setClassWindSpeed(Integer classWindSpeed) {
         this.classWindSpeed = classWindSpeed;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getLongitude() {
         return longitude;
     }
 
+    
+    /** 
+     * @param longitude
+     */
     public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getForecastDate() {
         return forecastDate;
     }
 
+    
+    /** 
+     * @param forecastDate
+     */
     public void setForecastDate(String forecastDate) {
         this.forecastDate = forecastDate;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getLatitude() {
         return latitude;
     }
 
+    
+    /** 
+     * @param latitude
+     */
     public void setLatitude(String latitude) {
         this.latitude = latitude;
     }

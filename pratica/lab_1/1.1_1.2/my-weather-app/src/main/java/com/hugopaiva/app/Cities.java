@@ -2,9 +2,18 @@ package com.hugopaiva.app;
 
 import java.util.HashMap;
 
+/**
+ * Contains the cities data on the IPMA system and can return it
+ */
 public class Cities {
+    /** 
+     * HashMap with city codes
+     */
     private HashMap<String, Integer> citiesCode = new HashMap<String, Integer>();
 
+    /** 
+     * Constructor
+     */
     public Cities(){
         citiesCode.put("Aveiro", 1010500);
         citiesCode.put("Beja", 1020500);
@@ -37,6 +46,11 @@ public class Cities {
     }
     
 
+    
+    /** Returns the code in the IPMA system for a given city
+     * @param city - city to know the code
+     * @return Integer - result (0 if not found)
+     */
     public Integer getCityCode(String city) {
         System.out.println(city);
         if(citiesCode.containsKey(city)){

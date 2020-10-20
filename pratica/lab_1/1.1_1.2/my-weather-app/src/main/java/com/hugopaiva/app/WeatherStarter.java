@@ -22,6 +22,10 @@ public class WeatherStarter {
      */
     private static final Logger logger = Logger.getLogger(WeatherStarter.class.getName());
 
+    
+    /** 
+     * @param args
+     */
     public static void  main(String[] args ) {
         Cities c = new Cities();
 

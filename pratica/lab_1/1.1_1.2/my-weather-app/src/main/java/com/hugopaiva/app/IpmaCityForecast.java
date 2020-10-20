@@ -26,42 +26,82 @@ public class IpmaCityForecast {
         @Expose
         private String dataUpdate;
 
+        
+        /** 
+         * @return String
+         */
         public String getOwner() {
             return owner;
         }
 
+        
+        /** 
+         * @param owner
+         */
         public void setOwner(String owner) {
             this.owner = owner;
         }
 
+        
+        /** 
+         * @return String
+         */
         public String getCountry() {
             return country;
         }
 
+        
+        /** 
+         * @param country
+         */
         public void setCountry(String country) {
             this.country = country;
         }
 
+        
+        /** 
+         * @return List<CityForecast>
+         */
         public List<CityForecast> getData() {
             return data;
         }
 
+        
+        /** 
+         * @param data
+         */
         public void setData(List<CityForecast> data) {
             this.data = data;
         }
 
+        
+        /** 
+         * @return Integer
+         */
         public Integer getGlobalIdLocal() {
             return globalIdLocal;
         }
 
+        
+        /** 
+         * @param globalIdLocal
+         */
         public void setGlobalIdLocal(Integer globalIdLocal) {
             this.globalIdLocal = globalIdLocal;
         }
 
+        
+        /** 
+         * @return String
+         */
         public String getDataUpdate() {
             return dataUpdate;
         }
 
+        
+        /** 
+         * @param dataUpdate
+         */
         public void setDataUpdate(String dataUpdate) {
             this.dataUpdate = dataUpdate;
         }
