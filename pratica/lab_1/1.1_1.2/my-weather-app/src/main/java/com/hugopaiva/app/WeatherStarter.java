@@ -67,10 +67,15 @@ public class WeatherStarter {
                 while(list.hasNext()){
                     CityForecast cityForecast = list.next();
 
-                    logger.info("Forecast for "+ cityForecast.getForecastDate() +" :");
+                    logger.info("---- Forecast for "+ cityForecast.getForecastDate() +" ----");
                     logger.info("Max temp: " + cityForecast.getTMax());
                     logger.info("Min temp: " + cityForecast.getTMin());
+                    logger.info("Weather Type: " + c.getIdWeatherType()); 
                     logger.info("Precip prob: " + cityForecast.getPrecipitaProb()); 
+                    logger.info("Wind Direction: " + c.getPredWindDir()); 
+                    logger.info("Classified wind speed: " + c.getClassWindSpeed());  
+                    logger.info("Longitude: " + c.getLongitude());   
+                    logger.info("Latitude: " + c.getLatitude());
                     
                 }
             } else {

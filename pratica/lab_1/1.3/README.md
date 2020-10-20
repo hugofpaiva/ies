@@ -87,14 +87,14 @@ services:
 ### Comandos pedidos
 
 ```bash
-docker container ls -a                      ies/.../composetest -> main ? ! —
+docker container ls -a                      
 CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS                      PORTS                                                                                                        NAMES
 bd25af30396d        composetest_web         "env"                    14 minutes ago      Exited (0) 14 minutes ago                                                                                                                composetest_web_run_2dcb585beff6
 6be90286554c        composetest_web         "flask run"              36 minutes ago      Up 36 minutes               0.0.0.0:5000->5000/tcp                                                                                       composetest_web_1
 031624303f04        redis:alpine            "docker-entrypoint.s…"   36 minutes ago      Up 36 minutes               6379/tcp                                                                                                     composetest_redis_1
 4e5f985d59e7        eg_postgresql           "/usr/lib/postgresql…"   About an hour ago   Up About an hour            0.0.0.0:5432->5432/tcp                                                                                       pg_test
 9cc2001488e2        portainer/portainer     "/portainer"             5 days ago          Up 2 hours                  0.0.0.0:8000->8000/tcp, 0.0.0.0:9000->9000/tcp                                                               portainer
-❯ docker container ls -all                    ies/.../composetest -> main ? ! —
+❯ docker container ls -all                    
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES
 bd25af30396d        composetest_web     "env"               14 minutes ago      Exited (0) 14 minutes ago                       composetest_web_run_2dcb585beff6
 
