@@ -22,36 +22,34 @@ public class WeatherStarter {
      */
     private static final Logger logger = Logger.getLogger(WeatherStarter.class.getName());
 
-    
-    /** 
+    /**
      * @param args
      */
-    public static void  main(String[] args ) {
+    public static void main(String[] args) {
         Cities c = new Cities();
 
         if (args != null && args.length == 2) {
-            if (args[0].equals("-c")){
+            if (args[0].equals("-c")) {
                 Integer cityId = c.getCityCode(args[1]);
-                if(cityId != 0){
+                if (cityId != 0) {
                     CITY_ID_ARGS = cityId;
-                }else{
+                } else {
                     logger.info("City not found!");
                     System.exit(1);
                 }
             }
 
-        } else{
+        } else {
             logger.info("No Arguments passed");
             System.exit(1);
         }
 
         /*
-        get a retrofit instance, loaded with the GSon lib to convert JSON into objects
+         * get a retrofit instance, loaded with the GSon lib to convert JSON into
+         * objects
          */
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://api.ipma.pt/open-data/")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
+        Retrofit retrofit = new Retrofit.Builder().baseUrl("http://api.ipma.pt/open-data/")
+                .addConverterFactory(GsonConverterFactory.create()).build();
 
         IpmaService service = retrofit.create(IpmaService.class);
         Call<IpmaCityForecast> callSync = service.getForecastForACity(CITY_ID_ARGS);
@@ -64,26 +62,27 @@ public class WeatherStarter {
 
                 ListIterator<CityForecast> list = forecast.getData().listIterator();
 
-                while(list.hasNext()){
+                while (list.hasNext()) {
                     CityForecast cityForecast = list.next();
 
-                    logger.info("---- Forecast for "+ cityForecast.getForecastDate() +" ----");
+                    logger.info("---- Forecast for " + cityForecast.getForecastDate() + " ----");
                     logger.info("Max temp: " + cityForecast.getTMax());
                     logger.info("Min temp: " + cityForecast.getTMin());
-                    logger.info("Weather Type: " + c.getIdWeatherType()); 
-                    logger.info("Precip prob: " + cityForecast.getPrecipitaProb()); 
-                    logger.info("Wind Direction: " + c.getPredWindDir()); 
-                    logger.info("Classified wind speed: " + c.getClassWindSpeed());  
-                    logger.info("Longitude: " + c.getLongitude());   
-                    logger.info("Latitude: " + c.getLatitude());
-                    
+                    logger.info("Weather Type: " + cityForecast.getIdWeatherType());
+                    logger.info("Precip prob: " + cityForecast.getPrecipitaProb());
+                    logger.info("Wind Direction: " + cityForecast.getPredWindDir());
+                    logger.info("Classified wind speed: " + cityForecast.getClassWindSpeed());
+                    logger.info("Longitude: " + cityForecast.getLongitude());
+                    logger.info("Latitude: " + cityForecast.getLatitude());
+
                 }
             } else {
-                logger.info( "No results!");
+                logger.info("No results!");
             }
+
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-
+        System.exit(0);
     }
 }

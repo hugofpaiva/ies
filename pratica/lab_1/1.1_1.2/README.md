@@ -83,3 +83,7 @@ mvn exec:java -Dexec.mainClass="weather.WeatherStarter" -Dexec.args="arg1 arg2 a
 
 Cada fase do  _Maven Build Lifecycle_  é feita de  _goals_. Cada um destes  _goals_  representa uma tarefa que é executada para avançar o estado da fase. Alguns dos  _Maven_  _goals_  não estão necessariamente ligado a uma fase do  _Lifecycle_  e podem ser executados através da linha de comandos.
 
+
+### Logger
+O programa já tinha um logger implementando pelo que, após questionar o professor, não houve necessidade de utilizar a bibliotec **log4j2**.
+

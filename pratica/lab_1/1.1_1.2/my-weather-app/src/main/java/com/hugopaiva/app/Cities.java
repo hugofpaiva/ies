@@ -52,7 +52,6 @@ public class Cities {
      * @return Integer - result (0 if not found)
      */
     public Integer getCityCode(String city) {
-        System.out.println(city);
         if(citiesCode.containsKey(city)){
             return citiesCode.get(city);
         } else{
