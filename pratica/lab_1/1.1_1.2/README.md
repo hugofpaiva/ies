@@ -62,9 +62,9 @@ mvn site
 
 ### Perguntas
 
--   **groupId -**  Identifica unicamente o projeto. Deve seguir as regras de nome de package do Java ou seja, começar com o reverso do nome do domínio do qual somos donos como: org.apache.maven, podendo ter vários subgrupos derivados deste que, como boa prática, podem seguir a estrutura do projeto. Se um projeto tem vários módulos, faz sentido adicionar ao groupId do pai o nome do módulo atual como: org.apache.maven, org.apache.maven.plugins, org.apache.maven.reporting
+-   **groupId -**  Identifica unicamente o projeto. Deve seguir as regras de nome de package do Java ou seja, começar com o reverso do nome do domínio do qual somos donos como: org.apache.maven, podendo ter vários subgrupos derivados que como boa prática, podem seguir a estrutura do projeto. Se um projeto tem vários módulos, faz sentido adicionar ao groupId do pai o nome do módulo atual como: org.apache.maven, org.apache.maven.plugins, org.apache.maven.reporting
 -   **artifactId -**  O nome do ficheiro jar (código compilado) sem a versão. Se a criação do jar é nossa responsabilidade, podemos dar o nome que quisermos com letras pequenas e sem símbolos estranhos. Se é um jar externo, temos de utilizar o nome do jar original.
--   **Archetype -**  É uma ferramenta de templates de projetos Maven. Basicamente é um padrão que os projetos criados usando-o, seguem. Ajuda os criadores de projetos Maven ao disponibilizar padrões para os utilizadores destes projetos seguirem permitindo parametrizar versões destes padrões.
+-   **Archetype -**  É uma ferramenta de templates de projetos Maven. Basicamente é um padrão que os projetos criados usando-o, seguem. Ajuda os criadores de projetos Maven ao disponibilizar padrões para os utilizadores destes projetos seguirem permitindo parametrizar versões.
 
 ### Dependências
 
