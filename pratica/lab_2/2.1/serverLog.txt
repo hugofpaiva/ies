@@ -1,0 +1,70 @@
+[apache-tomcat-9.0.39]:  inflated: META-INF/MANIFEST.MF
+[apache-tomcat-9.0.39]:   created: META-INF/
+[apache-tomcat-9.0.39]:   created: WEB-INF/
+[apache-tomcat-9.0.39]:   created: WEB-INF/classes/
+[apache-tomcat-9.0.39]:  inflated: index.jsp
+[apache-tomcat-9.0.39]:  inflated: WEB-INF/classes/MyFirstServlet.class
+[apache-tomcat-9.0.39]:  inflated: WEB-INF/web.xml
+[apache-tomcat-9.0.39]:  inflated: META-INF/maven/ies.aula2/aula2/pom.xml
+[apache-tomcat-9.0.39]:  inflated: META-INF/maven/ies.aula2/aula2/pom.properties
+[apache-tomcat-9.0.39]:  inflated: META-INF/MANIFEST.MF
+[apache-tomcat-9.0.39]:   created: META-INF/
+[apache-tomcat-9.0.39]:   created: WEB-INF/
+[apache-tomcat-9.0.39]:   created: WEB-INF/classes/
+[apache-tomcat-9.0.39]:  inflated: index.jsp
+ inflated: WEB-INF/classes/MyFirstServlet.class
+[apache-tomcat-9.0.39]:  inflated: WEB-INF/web.xml
+[apache-tomcat-9.0.39]:  inflated: META-INF/maven/ies.aula2/aula2/pom.xml
+[apache-tomcat-9.0.39]:  inflated: META-INF/maven/ies.aula2/aula2/pom.properties
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/9.0.39
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Oct 6 2020 14:11:46 UTC
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 9.0.39.0
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.15.7
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk-15.jdk/Contents/Home
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           15+36-1562
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/paiva/Library/Application Support/Code/User/workspaceStorage/3ae0bd7d56a5d2796385b533fb4c8ed4/adashen.vscode-tomcat/tomcat/apache-tomcat-9.0.39
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/paiva/Documents/Universidade/Engenharia Informática/3º Ano/1º Semestre/IES/ies/pratica/lab_2/2.1/apache-tomcat-9.0.39
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/paiva/Library/Application Support/Code/User/workspaceStorage/3ae0bd7d56a5d2796385b533fb4c8ed4/adashen.vscode-tomcat/tomcat/apache-tomcat-9.0.39
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/paiva/Documents/Universidade/Engenharia Informática/3º Ano/1º Semestre/IES/ies/pratica/lab_2/2.1/apache-tomcat-9.0.39
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=UTF8
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/paiva/Library/Application Support/Code/User/workspaceStorage/3ae0bd7d56a5d2796385b533fb4c8ed4/adashen.vscode-tomcat/tomcat/apache-tomcat-9.0.39/temp
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/paiva/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [498] milliseconds
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.39]
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/Users/paiva/Library/Application Support/Code/User/workspaceStorage/3ae0bd7d56a5d2796385b533fb4c8ed4/adashen.vscode-tomcat/tomcat/apache-tomcat-9.0.39/webapps/aula2]
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/paiva/Library/Application Support/Code/User/workspaceStorage/3ae0bd7d56a5d2796385b533fb4c8ed4/adashen.vscode-tomcat/tomcat/apache-tomcat-9.0.39/webapps/aula2] has finished in [203] ms
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/Users/paiva/Library/Application Support/Code/User/workspaceStorage/3ae0bd7d56a5d2796385b533fb4c8ed4/adashen.vscode-tomcat/tomcat/apache-tomcat-9.0.39/webapps/ROOT]
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/paiva/Library/Application Support/Code/User/workspaceStorage/3ae0bd7d56a5d2796385b533fb4c8ed4/adashen.vscode-tomcat/tomcat/apache-tomcat-9.0.39/webapps/ROOT] has finished in [18] ms
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+[apache-tomcat-9.0.39]: Nov 03, 2020 10:05:37 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [274] milliseconds
