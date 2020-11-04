@@ -1,6 +1,6 @@
 # Introduction to web apps with Spring Boot
 
-I had several problems trying to create the project from scratch without using Spring Initializr and using terminal. Since I didn't have any powerful Java IDE configured, I used the demo project for the next exercises. I will try to solve this problem in the following classes.
+**Note:** I had several problems trying to create the project from scratch without using Spring Initializr and using terminal. Since I didn't have any powerful Java IDE configured, I used the demo project for the next exercises. I will try to solve this problem in the following classes.
 
 ## [Web applications in Java can be deployed to stand-alone applications servers or embedded servers.Elaborate on when to choose one over the other (and relate with Spring Boot).](https://stephencoakley.com/2017/07/06/embedded-vs-external-web-server)
 
