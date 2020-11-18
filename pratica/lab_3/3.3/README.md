@@ -37,3 +37,7 @@ So, at the bottom, it is being used the annotation @Autowired, explained previou
 
 
 
+[Optionals] - > Started implementation in another Spring Boot project with SQL Connector but didn't end before time for submission. The deployment of this with docker and using SQL in another container will be super useful for the practical project
+
+
+
