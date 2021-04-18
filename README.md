@@ -1,2 +1,13 @@
-# ies
-Material de apoio e resoluções das Aulas Práticas de Introdução à Engenharia de Software do ano letivo 2020/2021
+# Introdução à Engenharia de Software
+
+**As anotações de cada secção estão dentro das suas respectivas pastas:**
+
+-   [**Lab 1 : Ambiente de desenvolvimento em equipa**](./lab_1) 
+-   [**Lab 2 : Java at the server-side and the role of application containers**](./lab_2) 
+-   [**Lab 3 : Multi-layer web applications with Spring Boot**](./lab_3) 
+
+
+## Autor
+
+ - **[Hugo Paiva de Almeida](https://github.com/hugofpaiva) - 93195**
+
